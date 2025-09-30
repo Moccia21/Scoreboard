@@ -1,0 +1,83 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b244a;
+  color: #fff;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+}
+
+.score__wrapper {
+  background-color: #080001;
+  width: 150px;
+  height: 130px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding-top: 16px;
+  border: 2px solid transparent;
+}
+
+.leader {
+  border-color: #fff;
+}
+
+.score {
+  font-size: 90px;
+  color: #f94f6d;
+}
+
+.score__card {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  color: #9aabd8;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #9aabd8;
+  border-radius: 8px;
+  margin: 4px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  color: #eeeeee;
+  border-color: #eeeeee;
+}
+
+.reset__btn--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset__btn {
+  width: 100px;
+  height: 64px;
+}
